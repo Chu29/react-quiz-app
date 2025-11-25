@@ -9,7 +9,7 @@ export const initialState = {
   currentIndex: 0,
   answers: [],
   isLoading: false,
-  timer: 10,
+  timer: 30,
   error: null,
 };
 
@@ -51,7 +51,7 @@ export const quizStore = create(
             state.isLoading = false;
 
             state.currentIndex = 0;
-            state.timer = 10;
+            state.timer = 30;
           });
         } catch (error) {
           console.error("Error fetching questions:", error);
