@@ -47,3 +47,21 @@ Knowledge about JS, ReactJS, Ky, npm, vite, Zustand and tailwindcss
 
 - $ git clone `git@github.com:Chu29/react-quiz-app.git`
 - $ `cd react-quiz-app`
+- $ `git checkout development`
+
+## Start App
+
+- run `npm install`
+- run `npm run dev` in your command line
+
+## Live Site
+
+[Link](https://react-quiz-e09aez0px-chus-projects-20f24695.vercel.app/)
+
+## Author
+**Chu Abuemkeze M.K**
+
+- GitHub: [@Chu29](https://github.com/Chu29)
+- Twitter: [@chu_codes](https://x.com/chu_codes)
+- LinkedIn: [Chu Abuemkeze M.K](https://www.linkedin.com/in/chu-abuemkeze/)
+
