@@ -28,7 +28,30 @@ export default function Header() {
       <AppBar />
       <div className="flex justify-center items-center ">
         <main className="flex flex-col gap-8 items-center mt-4">
-          <h1 className="text-4xl">Welcome to The Trivia Quiz!</h1>
+          <h1 className="text-xl">
+            Test your knowledge with 10 challenging questions
+          </h1>
+          <div className="text-left flex flex-col ">
+            <p className="text-3xl">Game Rules: </p>
+            <p>
+              <span className="font-semibold text-2xl text-amber-600">
+                10 Multiple Choice Questions:
+              </span>{" "}
+              Select the best answer from the options provided
+            </p>
+            <p>
+              <span className="font-semibold text-2xl text-amber-600">
+                30 Seconds Per Question:
+              </span>{" "}
+              Answer before time runs out or the question will be skipped
+            </p>
+            <p>
+              <span className="font-semibold text-2xl text-amber-600">
+                Instant Results:
+              </span>{" "}
+              See your score and review all answers at the end
+            </p>
+          </div>
           <CategoryCard />
         </main>
       </div>
