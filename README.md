@@ -1,16 +1,67 @@
-# React + Vite
+# Trivia Quiz Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## App
 
-Currently, two official plugins are available:
+![HomePage](./public/homepage.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![QuizPage](./public/quizpage.png)
 
-## React Compiler
+![ResultPage](./public/resultpage.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the ESLint configuration
+This app implements a simple trivia quiz game whereby a user can chose the quiz category they are interested in. Each question has a 30 seconds timer.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Play Game
+
+1. On the Homepage, select a category of interest.
+2. Answer each question before the timer runs out
+3. Preview your results upon completion
+
+## Built With
+
+- ReactJS
+- TailwindCSS
+- npm
+- vercel
+- Zustand
+- Ky
+
+### Prerequisites
+
+Knowledge about JS, ReactJS, Ky, npm, vite, Zustand and tailwindcss
+
+- Basic data structures
+- Arrays
+- useEffect
+- Functions
+- objects
+
+## Clone Project
+
+- To get a local copy up and running follow these simple example steps.
+- Clone this repository with `git@github.com:Chu29/react-quiz-app.git` using your terminal or command line.
+- Change to the project directory by entering: `cd react-quiz-app` in the terminal.
+
+## Command line steps
+
+- $ git clone `git@github.com:Chu29/react-quiz-app.git`
+- $ `cd react-quiz-app`
+- $ `git checkout development`
+
+## Start App
+
+- run `npm install`
+- run `npm run dev` in your command line
+
+## Live Site
+
+[Link](https://react-quiz-e09aez0px-chus-projects-20f24695.vercel.app/)
+
+## Author
+**Chu Abuemkeze M.K**
+
+- GitHub: [@Chu29](https://github.com/Chu29)
+- Twitter: [@chu_codes](https://x.com/chu_codes)
+- LinkedIn: [Chu Abuemkeze M.K](https://www.linkedin.com/in/chu-abuemkeze/)
+
