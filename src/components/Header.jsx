@@ -34,19 +34,19 @@ export default function Header() {
           <div className="text-left flex flex-col ">
             <p className="text-3xl">Game Rules: </p>
             <p>
-              <span className="font-semibold text-2xl text-amber-600">
+              <span className="font-semibold text-2xl text-[#FDFBD4]">
                 10 Multiple Choice Questions:
               </span>{" "}
               Select the best answer from the options provided
             </p>
             <p>
-              <span className="font-semibold text-2xl text-amber-600">
+              <span className="font-semibold text-2xl text-[#FDFBD4]">
                 30 Seconds Per Question:
               </span>{" "}
               Answer before time runs out or the question will be skipped
             </p>
             <p>
-              <span className="font-semibold text-2xl text-amber-600">
+              <span className="font-semibold text-2xl text-[#FDFBD4]">
                 Instant Results:
               </span>{" "}
               See your score and review all answers at the end
