@@ -54,10 +54,10 @@ export default function QuestionsCard() {
     <>
       {isQuizEnd ? (
         <div className="mt-20 flex flex-col gap-4 items-center">
-          <h2 className="text-2xl font-bold text-green-700">Quiz Finished</h2>
+          <h2 className="text-2xl font-bold text-[#FDFBD4]">Quiz Finished</h2>
           <p>You have answered all {questions.length} questions.</p>
           <button
-            className="text-2xl bg-green-700 p-2 rounded-lg hover:bg-green-800 mt-4 cursor-pointer"
+            className="text-2xl bg-linear-to-r from-green-500 to-green-700 p-2 rounded-lg hover:bg-green-800 mt-4 cursor-pointer"
             onClick={() => {
               navigate("/quiz-page/results-page");
             }}
@@ -66,7 +66,7 @@ export default function QuestionsCard() {
           </button>
         </div>
       ) : (
-        <div className="max-w-xl mx-auto p-4">
+        <div className="max-w-xl mx-auto w-full">
           <h1 className="text-xl font-semibold mb-6 capitalize text-center">
             Quiz on Category: {category.toUpperCase().replaceAll(/_/g, " ")}
           </h1>
@@ -74,7 +74,7 @@ export default function QuestionsCard() {
           <div className="bg-white shadow-lg rounded-lg p-6">
             <p className="text-gray-600 mb-2 flex justify-between">
               Question {currentIndex + 1} of {questions.length}
-              <span className={timer <= 5 ? "text-red-600" : "text-green-600"}>
+              <span className={timer <= 10 ? "text-red-600" : "text-green-600"}>
                 Timer: {timer}
               </span>
             </p>
