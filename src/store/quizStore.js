@@ -19,7 +19,13 @@ export const quizStore = create(
       ...initialState,
 
       resetQuiz: () => {
-        set((state) => Object.assign(state, initialState));
+        set({
+          questions: [],
+          currentIndex: 0,
+          answers: [],
+          isLoading: false,
+          timer: 30,
+        });
       },
 
       startQuiz: async (category) => {
